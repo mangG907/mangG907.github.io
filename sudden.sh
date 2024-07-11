@@ -6,7 +6,7 @@ FILE=~/tmp/_SUDDEN
 while true
 do
 	 if [ -e "$FILE" ]; then
-	   DATE=$(date +"%Y%m%d %H:%M:S")    
+	   DATE=$(date +"%Y%m%d %H:%M:%S")    
 	   #echo "check $FILE"
 	   # echo "SUDDEN!!!"
 	   echo "$DATE SUDDEN!!!"
