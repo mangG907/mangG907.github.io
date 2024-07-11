@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 FILE=~/tmp/_SUDDEN
 
 while true
@@ -8,7 +9,8 @@ do
 	 echo "SUDDEN!!!"
 
  else 
-	 clear
+	 clea
+	 figlet KIA
 	date
  fi
  sleep 3
