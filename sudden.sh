@@ -4,6 +4,13 @@ FILE=~/tmp/_SUDDEN
 
 while true
 do
-        echo "check"
-        sleep 3
+	 if [ -e "$FILE" ]; then
+	 echo "SUDDEN!!!"
+
+ else 
+	 clear
+	date
+ fi
+ sleep 3
+
 done
