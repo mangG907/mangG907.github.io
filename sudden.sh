@@ -6,9 +6,10 @@ FILE=~/tmp/_SUDDEN
 while true
 do
 	 if [ -e "$FILE" ]; then
-	    #echo "check $FILE"
-	    echo "SUDDEN!!!"
-
+	   DATE=$(date +"%Y%m%d %H:%M:%S")    
+	   #echo "check $FILE"
+	   # echo "SUDDEN!!!"
+	   echo "$DATE SUDDEN!!!"
 	 else 
 	    clear
 	    figlet KIA
